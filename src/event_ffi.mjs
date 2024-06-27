@@ -6,6 +6,9 @@ export function key(event) {
   return event.key;
 }
 
+export function keyCode(event) {
+  return event.keyCode;
+}
 
 export function preventDefault(event) {
   return event.preventDefault;
